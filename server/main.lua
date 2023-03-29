@@ -30,7 +30,3 @@ AddEventHandler('Roda_Hooks:server:setDimension', function (hooker, isPlayer)
     end
 
 end)
-
-RegisterCommand('ss', function()
-    TriggerEvent('esx_license:addLicense', source, 'armero')
-end)
